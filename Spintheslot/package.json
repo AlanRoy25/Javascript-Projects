@@ -1,0 +1,16 @@
+{
+  "name": "spintheslot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spintheslot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js": "^0.1.0",
+    "node": "^21.2.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
