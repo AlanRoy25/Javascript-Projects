@@ -1,0 +1,88 @@
+.body{
+  box-sizing: border-box;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(184, 184, 184);
+  color: white;
+  padding: 0.5rem;
+  gap: 4rem ;
+  margin-bottom: 1.5rem;
+}
+
+.nav a{
+  display: inline-block;
+  background-color: antiquewhite;
+  font-size: 18px;
+  width: 100px;
+  height: 50px;
+  padding-top: 1rem;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 9px rgb(93, 93, 93);
+  border: solid 2px rgb(70, 70, 70);
+}
+
+.box_Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Project_1{
+  background-color: grey;
+  padding: 20px;
+  height: auto;
+}
+
+.color{
+  display: inline-block;
+  justify-content: center;
+  background-color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width:100%;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.BMI{
+  
+  display: inline-block;
+  background-color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Spin{
+  display: inline-block;
+  background-color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.clock{
+  display: inline-block;
+  background-color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
