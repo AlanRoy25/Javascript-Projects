@@ -21,6 +21,16 @@ else if (isNaN(Weight) || Weight <= 0 ){
 }
 else {
  const bmi =  (Weight / ((Height/100)*(Height/100))).toFixed(2);
-results.innerHTML = `<span>${bmi}</span>`
+results.innerHTML = `<span>${bmi}</span>`;
+
+if (bmi <= 18.6) {
+  results.innerHTML = 'UnderWeight'
+}
+else if (bmi > 18.6 && bmi < 24.9 ){
+  results.innerHTML = 'Nomal Weight'
+}
+else (bmi >= 24.9){
+  results.innerHTML = 'Over Weight'
+}
 }
 });
