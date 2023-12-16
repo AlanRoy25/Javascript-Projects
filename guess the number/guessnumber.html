@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./guessnumber.css">
+  <title>Guess the number</title>
+</head>
+<body>
+  <h1 class="heading">Guess Number Game</h1>
+  <nav class="nav">
+    <a target="_self" href="../indexfrontpage/index.html"> Home </a>
+    <a target="_blank"  href="https://github.com/AlanRoy25"> Github Profile </a>
+  </nav>
+  <div class="container">
+    <p>Try to Guess the number between 1-100</p>
+    <p>You would only have 10 chances </p>
+  </br>
+  <form class="form">
+    <label for="guessfield" id="Guess">Guess the Number</label>
+    <input type="text" id="guessfield" class="guessfield" placeholder="Enter the number">
+    <input type="submit" id="sumbitbutton" class="submit" value="Submit Guess">
+  </form>
+  <div class="result">
+    <p>Previous Guesses: <span class="Guesses"></span></p>
+    <p>Guesses Remaining <span class="finalresult">10</span></p>
+    <p class="loworhi"></p>
+  </div>
+  </div>
+  <script src="./guess.js"></script>
+</body>
+</html>
