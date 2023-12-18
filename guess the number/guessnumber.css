@@ -1,0 +1,31 @@
+.heading {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  font-size: 38px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(222, 198, 167);
+  color: rgb(208, 201, 201);
+  padding: 0.5rem;
+  gap: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.nav a {
+  display: inline-block;
+  background-color: antiquewhite;
+  font-size: 18px;
+  width: 100px;
+  height: 50px;
+  padding-top: 1rem;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 9px rgb(223, 201, 201);
+  border: solid 2px rgb(234, 173, 173);
+}
